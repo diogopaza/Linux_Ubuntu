@@ -8,6 +8,14 @@ meu sistema operacional de uso no dia a dia.</p>
 alguns desses tópicos.</p>
 
 
+<h2>Comandos úteis logo no início da utilização do sistema</h2>
+<ul>
+  <li><strong>ls</strong> = lista todos os arquivos diretório</li>
+  <li><strong>ls -a</strong>= lista os arquivos ocultos também</li>
+
+</ul>
+
+
 
 
 
