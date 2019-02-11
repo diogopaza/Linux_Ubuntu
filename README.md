@@ -6,6 +6,9 @@
 meu sistema operacional de uso no dia a dia.</p>
 <p>Por eu ser um estudante de tecnologia, precisarei instalar e baixar vários programas com certeza muitos problemas ocorrerão e pretendo relatar aqui 
 alguns desses tópicos.</p>
+<p>Aprendi logo de início a importância do uso do gerenciador de pacote <strong>apt</strong> que vem junto com o Ubuntu, acredito que seja padrão em todas as distribuições Debian.</p>
+<p>Por padrão sempre devemos manter nosso gerenciador de pacotes atualizado, com o comando abaixo</p>
+<p>Ex: <strong>sudo apt update</strong> </p>
 
 
 <h2>Comandos úteis logo no início da utilização do sistema</h2>
