@@ -9,7 +9,13 @@ alguns desses tópicos.</p>
 <p>Aprendi logo de início a importância do uso do gerenciador de pacote <strong>apt</strong> que vem junto com o Ubuntu, acredito que seja padrão em todas as distribuições Debian.</p>
 <p>Por padrão sempre devemos manter nosso gerenciador de pacotes atualizado, com o comando abaixo</p>
 <p>Ex: <strong>sudo apt update</strong> </p>
-
+<h2>Instalando arquivos .DEB no Linux</h2>
+<p>O Linux Debian desenvolveu um sistema de empacotamento de software para facilitar a instalação de programas no Linux, esse empacotamento ganhou o nome de DEB.</p>
+<p>O Ubuntu é uma distribuição derivada do Debian e por isso tem suporte a esse tipo de empacotamento.O Linux Mint é o mesmo caso.</p>
+<p>Pode ser instalado via interface gráfica ou através do terminal:</p>
+<p><strong>sudo dpkg -i nome_arquibo.deb == comando para instalr via terminal os pacotes .deb</strong></p>
+<p><strong>sudo apt-get install -f == resolve as depências que estão faltando</strong></p>
+<p></p>
 
 <h2>Comandos úteis logo no início da utilização do sistema</h2>
 <ul>
