@@ -14,7 +14,7 @@ alguns desses tópicos.</p>
 <p>O Ubuntu é uma distribuição derivada do Debian e por isso tem suporte a esse tipo de empacotamento.O Linux Mint é o mesmo caso.</p>
 <p>Pode ser instalado via interface gráfica ou através do terminal:</p>
 <p><strong>sudo dpkg -i nome_arquibo.deb == comando para instalr via terminal os pacotes .deb</strong></p>
-<p><strong>sudo apt-get install -f == resolve as depências que estão faltando</strong></p>
+<p><strong>sudo apt-get install -f == resolve as depências que estão faltando, após esse comando executa o comando acima novamente</strong></p>
 <p></p>
 
 <h2>Comandos úteis logo no início da utilização do sistema</h2>
@@ -23,6 +23,9 @@ alguns desses tópicos.</p>
   <li><strong>ls -a</strong>= lista os arquivos ocultos também</li>
   <li><strong>chmod</strong>= altera as permissoes dos arquivos. Exe: chmod 777 arquivoX</li>
   <li><strong>gnome-system-monitor</strong>= gerenciador de tarefas do Ubuntu</li>
+  <li><strong>sudo dpkg -i nome.pacote</strong>= instala pacotes no Debian( Ubuntu )</li>
+  <li><strong>sudo dpkg -r nome.pacote</strong>= remove pacotes no Debian( Ubuntu ) mas não remove as configurações </li>
+ <li><strong>sudo dpkg -P nome.pacote</strong>= remove pacotes no Debian( Ubuntu ) remove as configurações também</li>
 
 </ul>
 
