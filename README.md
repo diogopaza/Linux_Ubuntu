@@ -21,6 +21,7 @@ alguns desses tópicos.</p>
 <ul>
   <li><strong>ls</strong> = lista todos os arquivos diretório</li>
   <li><strong>ls -a</strong>= lista os arquivos ocultos também</li>
+<li><strong>ls -l</strong>= lista todos os aruivos e suas permissões</li>
   <li><strong>chmod</strong>= altera as permissoes dos arquivos. Exe: chmod 777 arquivoX</li>
   <li><strong>gnome-system-monitor</strong>= gerenciador de tarefas do Ubuntu</li>
   <li><strong>sudo dpkg -i nome.pacote</strong>= instala pacotes no Debian( Ubuntu )</li>
