@@ -29,6 +29,7 @@ alguns desses tópicos.</p>
  <li><strong>sudo dpkg -P nome.pacote</strong>= remove pacotes no Debian( Ubuntu ) remove as configurações também</li>
  <li><strong>mv nome_arquivo nome_novo_arquivo</strong> = modifica o nome de um arquivo pode modificar a extensão também</li>
  <li><strong>sudo -s</strong> = login como root no terminal</li>
+  <li><strong>rm -r nome_pasta</strong> = apaga pasta, logado como root apaga sem pedir para confirmar</li>
 
 </ul>
 
