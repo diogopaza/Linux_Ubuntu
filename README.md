@@ -30,7 +30,9 @@ alguns desses tópicos.</p>
  <li><strong>mv nome_arquivo nome_novo_arquivo</strong> = modifica o nome de um arquivo pode modificar a extensão também</li>
  <li><strong>sudo -s</strong> = login como root no terminal</li>
   <li><strong>rm -r nome_pasta</strong> = apaga pasta, logado como root apaga sem pedir para confirmar</li>
-
+  <li><strong>free -m</strong> = informações sobre a memória </li>
+  <li><strong>df -h</strong> = relátorios sobre o espaço disponivel no disco</li>	
+  <li><strong>id</strong> = exibe a identidade do usuário </li
 </ul>
 
 
