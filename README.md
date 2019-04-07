@@ -32,7 +32,8 @@ alguns desses tópicos.</p>
   <li><strong>rm -r nome_pasta</strong> = apaga pasta, logado como root apaga sem pedir para confirmar</li>
   <li><strong>free -m</strong> = informações sobre a memória </li>
   <li><strong>df -h</strong> = relátorios sobre o espaço disponivel no disco</li>	
-  <li><strong>id</strong> = exibe a identidade do usuário </li
+  <li><strong>id</strong> = exibe a identidade do usuário </li>
+  <li><strong>lscpu</strong> = exibi a estrutura da cpu do sistema</li>
 </ul>
 
 
