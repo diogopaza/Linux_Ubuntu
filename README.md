@@ -1,5 +1,4 @@
 <h1>Guia de comandos Linux Ubuntu</h1>
-<h2></h2>
 
 <p>Iniciando minhas expêrencias e testes pelo mundo Linux, instalei o Ubuntu sem maiores problemas dando boot via pendrive.</p>
 <p>Aqui estarei montando o meu guia com comandos, dificuldades e resoluções de problemas que encontrarei nessa mudança de hábito, ao tentar usar o Linux como
@@ -35,6 +34,12 @@ alguns desses tópicos.</p>
   <li><strong>id</strong> = exibe a identidade do usuário </li>
   <li><strong>lscpu</strong> = exibi a estrutura da cpu do sistema</li>
 </ul>
+
+<h2>NMAP</h2>
+<p>O Nmap(Network MApper) é um programa de código aberto que realiza o 
+trabalho de portscan.</p>
+<p>nmap -A  192.168.0.0/24 == verifica todos os hosts desta determinada 
+faixa de IP, verificando o sistema operacional. </p>
 
 
 
