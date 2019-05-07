@@ -16,7 +16,7 @@ alguns desses tópicos.</p>
 <p><strong>sudo apt-get install -f == resolve as depências que estão faltando, após esse comando executa o comando acima novamente</strong></p>
 <p></p>
 
-<h2>Comandos úteis logo no início da utilização do sistema</h2>
+<h2>Comandos úteis </h2>
 <ul>
   <li><strong>ls</strong> = lista todos os arquivos diretório</li>
   <li><strong>ls -a</strong>= lista os arquivos ocultos também</li>
@@ -34,6 +34,11 @@ alguns desses tópicos.</p>
   <li><strong>id</strong> = exibe a identidade do usuário </li>
   <li><strong>lscpu</strong> = exibi a estrutura da cpu do sistema</li>
 </ul>
+
+<h2>Alterando resolução de vídeo com o comando xrandr</h2>
+<p>xrandr == lista saidas de vídeo e suas respectivas resoluções </p>
+<p>xrandr --addmode DP-1 1920x1080 == adiciona a 
+resolução passada na saída de vídeo DP-1.  </p>
 
 <h2>NMAP</h2>
 <p>O Nmap(Network MApper) é um programa de código aberto que realiza o 
