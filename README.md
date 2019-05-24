@@ -33,6 +33,7 @@ alguns desses tópicos.</p>
   <li><strong>df -h</strong> = relátorios sobre o espaço disponivel no disco</li>	
   <li><strong>id</strong> = exibe a identidade do usuário </li>
   <li><strong>lscpu</strong> = exibi a estrutura da cpu do sistema</li>
+  <li><strong>chmod +x nomePacote</strong> = da permissao para executar o script</li>	
 </ul>
 
 <h2>Alterando resolução de vídeo com o comando xrandr</h2>
