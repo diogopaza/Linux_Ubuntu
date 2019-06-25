@@ -41,6 +41,13 @@ alguns desses tópicos.</p>
 <p>xrandr --addmode DP-1 1920x1080 == adiciona a 
 resolução passada na saída de vídeo DP-1.  </p>
 
+<h2>Arquivo de inicialização</h2>
+<p>Muito parecido com o autoexec.bat do ms-dos ou com o msconfig do 
+Windows 7.</p>
+<p>Editando o arquivo .profile é possível executar um comando
+automaticante junto com  a inicialização do Linux</p>
+<p>O arquivo .profile está localizado na pasta home do seu usuário</p>
+
 <h2>NMAP</h2>
 <p>O Nmap(Network MApper) é um programa de código aberto que realiza o 
 trabalho de portscan.</p>
