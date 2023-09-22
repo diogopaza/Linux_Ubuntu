@@ -24,6 +24,10 @@
   <li><strong>chmod +x nomePacote</strong> = da permissao para executar o script</li>	
 </ul>
 
+<h2>Montar automaticamente uma unidade de disco após a reinicialização do sistema.</h2>
+<p>O comando <strong>mount nomeDaUnidade localDeontagem</strong> monta uma unidade de disco, porém isso não fica gravado, dessa forma ao reiniciar ou desligar o Ubuntu o ponto de montagem é perdido.</p>
+
+
 <h2>Alterando resolução de vídeo com o comando xrandr</h2>
 <p>xrandr == lista saidas de vídeo e suas respectivas resoluções </p>
 <p>xrandr --addmode DP-1 1920x1080 == adiciona a 
