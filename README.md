@@ -5,6 +5,7 @@
 
 <h2>Comandos úteis </h2>
 <ul>
+   <li><strong>curl -i endereco</strong> == realiza uma solicitacao HTTP.</li>
   <li><strong>sudo apt update</strong> == atualiza o gerenciador de pacotes</li>
   <li><strong>ls</strong> == lista todos os arquivos diretório</li>
   <li><strong>ls -a</strong> == lista os arquivos ocultos também</li>
