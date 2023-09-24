@@ -27,10 +27,10 @@
 
 <h2>Montar automaticamente uma unidade de disco após a reinicialização do sistema.</h2>
 <p>O comando <strong>mount nomeDaUnidade localDeontagem</strong> monta uma unidade de disco, porém isso não fica gravado, dessa forma ao reiniciar ou desligar o Ubuntu o ponto de montagem é perdido.</p>
-<strong>sudo df -h </strong>este comando exibe detalhes sobre as partições existentes no linux. com esse com comando é possível ver os pontos de montagem existentes.
-<strong>sudo fdisk -l </strong>este comando exibe detalhes as unidades de disco.
-<strong>Editar o arquivo /etc/fstab</strong> arquivo crítico e contém os pontos de montagem a serrem inicializados automaticamente. Adicionar o nomde da uniddade e o tipo de de partição neste arquivo, desta forma a partição irá montar automaticamente no ponto definido.
-<strong>sudou mount -a </strong> comando para testar os pontos de montagem sem precisar reiniciar a máquina, dessa forma se houver um erro ao editar o arquivo fstab, será possível resolver. 
+<p></p><strong>sudo df -h </strong>este comando exibe detalhes sobre as partições existentes no linux. com esse com comando é possível ver os pontos de montagem existentes.</p>
+<p></p><strong>sudo fdisk -l </strong>este comando exibe detalhes das unidades de disco.</p>
+<p></p><strong>Editar o arquivo /etc/fstab</strong> arquivo crítico e contém os pontos de montagem a serrem inicializados automaticamente. Adicionar o nomde da uniddade e o tipo de de partição neste arquivo, desta forma a partição irá montar automaticamente no ponto definido.</p>
+<strong>sudo mount -a </strong> comando para testar os pontos de montagem sem precisar reiniciar a máquina, dessa forma se houver um erro ao editar o arquivo fstab, será possível resolver. 
 
 
 
