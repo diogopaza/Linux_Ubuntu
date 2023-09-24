@@ -23,6 +23,7 @@
   <li><strong>id</strong> = exibe a identidade do usuário </li>
   <li><strong>lscpu</strong> = exibi a estrutura da cpu do sistema</li>
   <li><strong>chmod +x nomePacote</strong> = da permissao para executar o script</li>	
+    <li><strong>chmod 400 nomePacote</strong> = permissao de apenas leitura para o arquivo</li>	
 </ul>
 
 <h2>Montar automaticamente uma unidade de disco após a reinicialização do sistema.</h2>
