@@ -26,11 +26,18 @@
 </ul>
 
 <h2>Montar automaticamente uma unidade de disco após a reinicialização do sistema.</h2>
-<p>O comando <strong>mount nomeDaUnidade localDeontagem</strong> monta uma unidade de disco, porém isso não fica gravado, dessa forma ao reiniciar ou desligar o Ubuntu o ponto de montagem é perdido.</p>
+<p>O comando <strong>mount nomeDaUnidade localDeMontagem</strong> monta uma unidade de disco, porém isso não fica gravado, dessa forma ao reiniciar ou desligar o Ubuntu o ponto de montagem é perdido.</p>
 <p></p><strong>sudo df -h </strong>este comando exibe detalhes sobre as partições existentes no linux. com esse com comando é possível ver os pontos de montagem existentes.</p>
-<p></p><strong>sudo fdisk -l </strong>este comando exibe detalhes das unidades de disco.</p>
-<p></p><strong>Editar o arquivo /etc/fstab</strong> arquivo crítico e contém os pontos de montagem a serrem inicializados automaticamente. Adicionar o nomde da uniddade e o tipo de de partição neste arquivo, desta forma a partição irá montar automaticamente no ponto definido.</p>
+<p></p><strong>sudo fdisk -l </strong>este comando exibe detalhes das unidades de disco, todos os dispositivos reconhecidos pelo Ubuntu.</p>
+<p></p><strong>Editar o arquivo /etc/fstab</strong> arquivo crítico e contém os pontos de montagem a serrem inicializados automaticamente. Adicionar o nome da uniddade e o tipo de partição e o tipo defaults neste arquivo, desta forma a partição irá montar automaticamente no ponto definido.</p>
 <strong>sudo mount -a </strong> comando para testar os pontos de montagem sem precisar reiniciar a máquina, dessa forma se houver um erro ao editar o arquivo fstab, será possível resolver. 
+
+<h2>Processo de formatação ou instalacao do filesystem em um disco no Ubuntu</h2>
+<ul>
+   <li><strong>sudo fdisk nomeDaUnidade</strong> comando particionar o disco, opção p lista as particoes; a opcao m mostra o help do comando; para finalizar usar o w para gravar o particionamento do disco.</li>
+   <li><strong>sudo mkfs.ext4 nomeDaUnidade</strong> define a particao ext4.</li>
+   <li><p>O comando <strong>mount nomeDaUnidade localDeMontagem</strong> monta uma unidade de disco, porém isso não fica gravado, dessa forma ao reiniciar ou desligar o Ubuntu o ponto de montagem é perdido.</p></li>
+</ul>
 
 
 
