@@ -6,6 +6,7 @@
 <h2>Comandos úteis </h2>
 <ul>
     <li><strong>hostname</strong> == exibe o nome do computador.</li>
+     <li><strong>sudo hostnamectl set-hostname novoNome</strong> == altera o nome do computador.</li>
     <li><strong>uname -a</strong> == exibe detalhes do sistema Ubuntu.</li>
    <li><strong>whoami</strong> == mostra o usuario atual.</li>
    <li><strong>curl -i endereco</strong> == realiza uma solicitacao HTTP.</li>
