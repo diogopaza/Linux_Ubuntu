@@ -2,6 +2,12 @@
 
 <Scripts com Linux>
 
+<h4>Aplicacao rodando em segundo plano no Linux Ubuntu - <strong>API-com-Django-Validacoes-buscas-filtros-e-deploy - repositorio original )</strong>strong></h4>
+<ul>
+  <li><strong>screen -list</strong> === lista as sessoes executadas em segundo plano;</li>
+   <li><strong>screen -S nomeDoApp</strong> === prepara o ambiente para ficar sendo executado em segundo plano, após esse comando dentro da pasta onde esta o app, coloca-se o serviço para rodar, neste exemplo python3 manage ;</li>
+</ul>
+
 
 <h2>Comandos úteis </h2>
 <ul>
